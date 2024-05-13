@@ -5,7 +5,7 @@ from second_ingredient import second_most_used_ingredient
 
 @pytest.fixture
 def recipes():
-    with open("./src/recipes/recipes.json") as f:
+    with open("./src/ingredient/recipes.json") as f:
         return json.load(f)
 
 def test_single_ingredient(recipes):

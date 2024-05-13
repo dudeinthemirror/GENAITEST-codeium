@@ -49,8 +49,9 @@ def second_most_used_ingredient(recipes):
 
     # (luc) This section had to be refactored by hand. The original code did not 
     # handle the case where there are multiple most used ingredients with the same count.
+
     # assign the count of the first ingredient in the sorted list to cnt
-    cnt = sorted_counts[1][1]
+    cnt = sorted_counts[0][1]
 
     # iterate through sorted_ingredients and return the first ingredient for which the count is different from cnt
     for ingredient, count in sorted_counts:
