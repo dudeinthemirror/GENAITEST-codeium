@@ -1,0 +1,9 @@
+{
+  "pie": ["flour", "pepperoni", "tomato", "cheese", "salt", "pepper"],
+  "cake": ["flour", "milk", "sugar", "cheese"],
+  "icecream": ["milk", "sugar", "nuts"],
+  "soup": ["water", "meat", "salt", "pepper", "potatoes"],
+  "fries": ["potatoes", "salt", "pepper", "oil"],
+  "salad": ["lettuce", "tomato", "cucumber", "onion", "oil", "salt", "pepper"],
+  "pasta": ["flour", "water", "sauce", "pepper", "salt"]
+}
